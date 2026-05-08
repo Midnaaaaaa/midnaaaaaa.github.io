@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pol Roca Cerdá | Graphics & C++ Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Pol Roca Cerdá</h1>
+            <p class="tagline">Graphics Programmer / C++ Engineer</p>
+            <p class="sub-tagline">Real-time rendering, simulation, VR and medical visualization</p>
+            
+            <div class="hero-links">
+                <a href="https://github.com/midnaaaaaa" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/pol-roca-cerdá/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="Resume_Master_GRAPHICS.pdf" target="_blank" class="cta-cv"><i class="fas fa-file-pdf"></i> CV PDF</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
+        
+        <div class="project-list">
+            
+            <div class="project-item">
+                <div class="project-visual">
+                    <div class="video-placeholder">Video: Massive Environment Viewer</div>
+                </div>
+                <div class="project-info">
+                    <h3>Massive Environment Viewer</h3>
+                    <p class="project-meta">Unity | Compute Shaders | C#</p>
+                    <p class="description">Visor en tiempo real de terrenos masivos mediante chunk-based streaming y GPU instancing.</p>
+                    
+                    <div class="challenges">
+                        <h4>Technical Challenges</h4>
+                        <ul>
+                            <li>Implemented dynamic LOD and frustum culling via compute shaders to handle millions of instances.</li>
+                            <li>Engineered a procedural pipeline converting OSM data into navigable terrain costs using Random Forest models.</li>
+                            <li>Optimized rendering for Meta Quest VR (distance-based fog, custom post-processing).</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="github-link"><i class="fab fa-github"></i> View Source</a>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-visual">
+                    <div class="video-placeholder">Video: Medical Imaging Platform</div>
+                </div>
+                <div class="project-info">
+                    <h3>Medical Imaging Platform</h3>
+                    <p class="project-meta">C++ | OpenGL | VTK | Qt</p>
+                    <p class="description">Software de visualización médica con renderizado volumétrico 3D sincronizado.</p>
+                    
+                    <div class="challenges">
+                        <h4>Technical Challenges</h4>
+                        <ul>
+                            <li>Developed a custom A* heuristic integrating anatomical parameters for colon segmentation.</li>
+                            <li>Implemented Graph Cuts optimization for volumetric segmentation with medial axis spatial priors.</li>
+                            <li>Synchronized multi-panel 2D/3D views for real-time interactive volumetric editing.</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="github-link"><i class="fab fa-github"></i> View Source</a>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-visual">
+                    <div class="video-placeholder">Video: GPU Path Tracer</div>
+                </div>
+                <div class="project-info">
+                    <h3>Educational GPU Path Tracer</h3>
+                    <p class="project-meta">Unity | HLSL | Compute Shaders</p>
+                    <p class="description">Implementación básica de la ecuación de renderizado para aprendizaje de fundamentos de GI.</p>
+                    
+                    <div class="challenges">
+                        <h4>Technical Challenges</h4>
+                        <ul>
+                            <li>Implemented stochastic sampling for multi-bounce global illumination.</li>
+                            <li>Progressive accumulation buffer for noise reduction over time.</li>
+                        <li><strong>Note:</strong> Current version uses ray-sphere intersections; BVH acceleration is planned for next iteration.</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="github-link"><i class="fab fa-github"></i> View Source</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="resume" class="section">
+        <h2 class="section-title">Resume</h2>
+        <div class="resume-container">
+            <p>Descarga mi currículum completo para ver detalles sobre mi formación en la UPC y mi experiencia en EY y ViRVIG.</p>
+            <a href="Resume_Master_GRAPHICS.pdf" target="_blank" class="btn-primary">Download Full CV</a>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-links">
+            <p>Estoy abierto a oportunidades en Graphics Programming, Rendering Engine Dev y XR.</p>
+            <a href="mailto:polrocacerda@gmail.com">polrocacerda@gmail.com</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pol Roca Cerdá</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
